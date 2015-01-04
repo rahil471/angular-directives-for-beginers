@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen"/>
+		<link media="all" type="text/css" href="css/style.css" rel="stylesheet">
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>		
+	</head>
+	<body ng-app="testApp">
+		<!-- <h4>Invoked as an element</h4>
+		<my-directive>
+		</my-directive>
+		<h4>Invoked as a class</h4>
+		<div class="my-directive"></div>
+		<h4>Invoked as an attribute</h4>
+		<div my-directive></div> -->
+		<div class="container">
+			<div class="row">
+				<div class="faces" my-directive></div>
+					<h5 style="margin-top:100px;">In this demo the black image strip is a directive with a templateUrl,this directive is used at two places.
+						We will also be doing a tutorial on how to create this css3 fade out animation,stay tuned.</h5>
+				<div class="faces" my-directive style="bottom:0;"></div>
+			</div>
+		</div>
+	</body>
+	<script src="js/angular.js"></script>
+	<script src="js/testApp.js"></script>
+	
+</html>
